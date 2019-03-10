@@ -10,3 +10,22 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ignore Maven generated target folders
+target
+ 
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+
+/*/.settings
+/*/.externalToolBuilders
