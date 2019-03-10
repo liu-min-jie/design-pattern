@@ -1,16 +1,12 @@
 package com.lmj.study.pattern.factory.abstractfactory;
 
-
-/**
- * Created by Tom.
- */
 public class PythonCourseFactory implements CourseFactory {
 
-  public INote createNote() {
-    return new PythonNote();
-  }
+	public INote createNote() {
+		return new PythonNote();
+	}
 
-  public IVideo createVideo() {
-    return new PythonVideo();
-  }
+	public IVideo createVideo() {
+		return new PythonVideo();
+	}
 }
